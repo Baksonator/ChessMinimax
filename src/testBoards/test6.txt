@@ -1,0 +1,37 @@
+Builder builder = new Builder();
+//		builder.setFigura(new Top(38, Boja.BELA));
+		builder.setFigura(new Skakac(47, Boja.BELA));
+		builder.setFigura(new Lovac(0, Boja.BELA));
+//		builder.setFigura(new Dama(14, Boja.BELA));
+		builder.setFigura(new Kralj(52, Boja.BELA));
+//		builder.setFigura(new Lovac(11, Boja.BELA));
+//		builder.setFigura(new Skakac(18, Boja.BELA));
+//		builder.setFigura(new Top(4, Boja.BELA));
+//		builder.setFigura(new Pesak(16, Boja.BELA));
+//		builder.setFigura(new Pesak(9, Boja.BELA));
+//		builder.setFigura(new Pesak(26, Boja.BELA));
+//		builder.setFigura(new Pesak(27, Boja.BELA));
+//		builder.setFigura(new Pesak(28, Boja.BELA));
+//		builder.setFigura(new Pesak(45, Boja.BELA));
+//		builder.setFigura(new Pesak(14, Boja.BELA));
+//		builder.setFigura(new Pesak(15, Boja.BELA));
+		
+//		builder.setFigura(new Top(56, Boja.CRNA));
+//		builder.setFigura(new Skakac(50, Boja.CRNA));
+//		builder.setFigura(new Lovac(49, Boja.CRNA));
+		builder.setFigura(new Kralj(63, Boja.CRNA));
+//		builder.setFigura(new Dama(60, Boja.CRNA));
+//		builder.setFigura(new Lovac(51, Boja.CRNA));
+//		builder.setFigura(new Skakac(45, Boja.CRNA));
+//		builder.setFigura(new Top(61, Boja.CRNA));
+		builder.setFigura(new Pesak(55, Boja.CRNA));
+		builder.setFigura(new Pesak(54, Boja.CRNA));
+//		builder.setFigura(new Pesak(53, Boja.CRNA));
+//		builder.setFigura(new Pesak(36, Boja.CRNA));
+//		builder.setFigura(new Pesak(35, Boja.CRNA));
+//		builder.setFigura(new Pesak(34, Boja.CRNA));
+//		builder.setFigura(new Pesak(33, Boja.CRNA));
+//		builder.setFigura(new Pesak(40, Boja.CRNA));
+		
+		builder.setPotez(Boja.BELA);
+		return builder.build();
