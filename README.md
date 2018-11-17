@@ -1,1 +1,1 @@
-# ChessMinimax
+The minimax algorithm demonstrated in chess. The program is used for solving chess puzzles of checkmate in 3 or less. White is always on the move, you can tell the computer to make a move and he will always find the solution. You can play as the defending side by clicking on a piece and then on a tile you want it to move to.
